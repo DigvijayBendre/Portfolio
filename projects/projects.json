@@ -1,0 +1,71 @@
+[
+  
+  {
+    "name": "World War 3",
+    "desc": "Build This Website Using HTML, CSS, And JavaScript",
+    "image": "instagrammern",
+    "category": "mern",
+    "links": {
+      "view": "https://digvijaybendre.github.io/World-War3/",
+      "code": "https://github.com/DigvijayBendre/World-War3"
+    }
+  },
+  {
+    "name": "Arithmatic Calculator",
+    "desc": " It will perform basic arithmetic operations like addition,subtraction, division, and multiplication",
+    "image": "flipkartmern",
+    "category": "mern",
+    "links": {
+      "view": "https://digvijaybendre.github.io/calculator/",
+      "code": "https://github.com/DigvijayBendre/calculator"
+    }
+  },
+  
+  
+  
+  {
+    "name": "Personal Portfolio",
+    "desc": "This website is specially build to showcase of my skills, Project And Education .",
+    "image": "jspro",
+    "category": "mern",
+    "links": {
+      "view": "",
+      "code": ""
+    }
+  },
+   
+  {
+    "name": "Solar System",
+    "desc": "Portfolio built using HTML, CSS, Bootstrap, SASS and JavaScript. Customized Bootstrap using SCSS.",
+    "image": "bootstrapportfolio",
+    "category": "android",
+    "links": {
+      "view": "https://drive.google.com/file/d/11aRyeqAqBIYdsQal0CFpIrfCPXEwW-9R/view?usp=sharing",
+      "code": "https://github.com/DigvijayBendre/Solar-System"
+    }
+  },
+  
+  {
+    "name": "SMS-Spam Collection",
+    "desc": "A Simulation of the entire Solar System. This Program shows how it would look if you were to gaze at the Solar System from the space itself. ",
+    "image": "portfolio",
+    "category": "basicweb",
+    "links": {
+      "view": "https://github.com/DigvijayBendre/IRIS-Flower-classification",
+      "code": "https://github.com/DigvijayBendre/OIB-SIB-Task-1-Iris-Flower-Claassification-Oasis"
+    }
+  },
+
+  {
+    "name": "Iris Flower Classification",
+    "desc": "This Project is through Oasis Data Science Internship Programme application of machine learning with python programming. It focuses on IRIS flower classification using Machine Learning with scikit tools.",
+    "image": "composey",
+    "category": "basicweb",
+    "links": {
+      "view": "https://github.com/DigvijayBendre/IRIS-Flower-classification",
+      "code": "https://github.com/DigvijayBendre/OIB-SIB-Task-1-Iris-Flower-Claassification-Oasis"
+    }
+  }
+ 
+  
+  ]
