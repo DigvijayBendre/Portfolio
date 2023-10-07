@@ -12,7 +12,7 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Favicon -->
-    <link id='favicon' rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-png">
+    <link id='favicon' rel="shortcut icon" href="./assets/images/cmsoon.png" type="image/x-png">
     <title>Digvijay Portfolio</title>
 </head>
 <body oncontextmenu="return false">
@@ -22,22 +22,34 @@
   <img draggable="false" src="./assets/images/preloader.gif" alt="">
 </div> -->
 
-<!-- navbar starts -->
 <header>
-        <a href="/" class="logo"><i class='bx bx-code-alt' ></i> Digvijay</a>
+  <a href="/" class="logo"><i class='bx bx-code-alt'></i> Digvijay</a>
 
-        <div id="menu" class="fas fa-bars"></div>
-        <nav class="navbar">
-            <ul>
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+  <!-- Music play button -->
+  <div id="music-player-container">
+    <button id="play-pause-button">&#9658;</button>
+    <canvas id="music-visualizer"></canvas>
+</div>
+<audio id="music-player">
+    <source src="./assets/images/Vellake.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+
+
+
+  <div id="menu" class="fas fa-bars"></div>
+  <nav class="navbar">
+      <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+  </nav>
 </header>
 <!-- navbar ends -->
 
@@ -52,6 +64,8 @@
     <a href="#about" class="btn"><span>About Me</span>
       <i class="fas fa-arrow-circle-down"></i>
     </a>
+
+    
     <div class="socials">
         <ul class="social-icons">
           <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/digvijaybendre7000/" target="_blank"><i class="fab fa-linkedin"></i></a></li> 
@@ -80,15 +94,20 @@
         <img draggable="false" class="tilt" src="./assets/images/profile2.jpg" alt="">
     </div>
     <div class="content">
-        <h3> Hello..! I'm Digvijay</h3>
-        <span class="tag">A Full Stack Developer</span>
+        <h3> Hey there..! I'm Digvijay</h3>
+        <span class="tag">A Full Stack Developer / Software Developer</span>
         
-        <p>I am a Full-Stack developer based in Pune, India. 
-          I am an Master Of Computer Application(CS/IT) undergraduate from Jain University Bangalore.
-          I Completed My Bachelor in Computer Science From Savitribai Phule University.
-          I am very passionate about improving my coding skills & developing applications & websites.
-          I build WebApps and Websites using MERN Stack.
-          Working for myself to improve my skills.
+        <p> Thanks for landing on my profile
+
+          Let me introduce myself... 
+          
+          I'm Digvijay, a driven and disciplined individual with a vision for growth. I thrive on solving challenges because I believe they are the stepping stones to personal improvement.<br><br> My approach is all about competing with my past self, constantly striving to become better.
+          
+          As a tech enthusiast, I'm on a continuous journey to acquire and apply technical skills in real-world scenarios. <br><br>I take pride in my honesty, loyalty, regularity, punctuality, sincerity, and dedication, qualities that make me a dependable asset for any organization. Time is a precious resource, and I make it a point to utilize it to the fullest.<br><br>
+          
+          Offering insights into the Java, C++, MERN Stack and SQL an area I'm well-acquainted with.
+          
+          Thank you for visiting my LinkedIn profile. I'm excited to connect and explore opportunities in the world of tech with like-minded individuals. Have a fantastic day ahead...!"
            </p>
         
         <div class="box-container">
@@ -103,7 +122,7 @@
         </div>
         
         <div class="resumebtn">
-            <a href="" class="btn"><span>Resume</span>
+            <a href="https://docs.google.com/document/d/1l2VZ_an6nu7PJFBglwg4I6unH3cC36Oep60-nZYMRHg/edit?usp=sharing" class="btn"><span>Resume</span>
                 <i class="fas fa-chevron-right"></i>
             </a>
         </div>
@@ -150,7 +169,7 @@
         <div class="content">
         <h3>Masters Of Computer Application</h3>
         <p>Jain (Deemed to be) University, Bangalore</p>
-        <h4>2022-2025 | Pursuing</h4>
+        <h4>2023-2025 </h4>
         </div>
     </div>
 
@@ -216,11 +235,14 @@
     <div class="container left">
       <div class="content">
         <div class="tag">
-          <h2>Data Science Intern</h2>
+          <h2>Software Engineer, Intern</h2>
         </div>
         <div class="desc">
-            <h3>Oasis Infobyte | Internship </h3>
-            <p>January 2021 - present</p>
+            <h3>PTC Software Pvt. Ltd. - January 2023 - July 2023 </h3>
+            <p>●  Collaborated closely with cross-functional teams to design, develop, and optimize enterprise-level applications, utilizing React and SQL. <br>
+              ●  Designed and  developed  systems  facilitating  marketer’s to  perform  various   optimization  experiments  within the Prime  ecosphere.<br>
+              ●  Achieved a remarkable 30% improvement in unit testing and multivariate testing efficiency by skillfully optimizing marketing experiments.<br>
+              ●  Played a key role in reinforcing application  security  protocols, contributing to the platform's  robustness  against potential vulnerabilities.</p>
         </div>
       </div>
     </div>
@@ -230,52 +252,20 @@
       <div class="content">
         <div class="tag">
           <h2>
-            Python with Data science AI</h2>
+            Software Developer, Apprenticeship</h2>
         </div>
         <div class="desc">
-            <h3>Technogeeks- Pune| Apprenticeship</h3>
-            <p>November 2022 - Present</p>
+            <h3>Technogeeks- September 2022 - December 2022</h3>
+            <p>● Engineered Java applications, achieving 100% performance increase, enhancing user experiences.<br>
+              ● Led Full Stack projects, implementing MERN stack, significantly boosting company capabilities.<br>
+              ● Streamlined with React components, optimizing workflows for a 40% SDLC efficiency enhancement.<br>
+              ● Leveraged MongoDB to elevate data management, contributing to a 100% rise in customer satisfaction.<br>
+              ● Collaborated effectively, providing valuable technical insights, leading to robust, scalable solutions.</p>
         </div>
       </div>
     </div>
 
 
-    <div class="container right">
-        <div class="content">
-          <div class="tag">
-            <h2>
-              Problem Solver (300+)</h2>
-          </div>
-          <div class="desc">
-              <h3>LeetCode| Self-employed</h3>
-              <p>September 2022 - Present</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="container left">
-        <div class="content">
-          <div class="tag">
-            <h2>Web Development & Designing</h2>
-          </div>
-          <div class="desc">
-              <h3>Code Caluse | Internship</h3>
-              <p>August 2022 - September 2022</p>
-          </div>
-        </div>
-      </div>
-
-    <div class="container right">
-      <div class="content">
-        <div class="tag">
-          <h2> Developer Program</h2>
-        </div>
-        <div class="desc">
-            <h3>Accenture-Forage | Apprenticeship </h3>
-            <p>June 2022 - July 2022</p>
-        </div>
-      </div>
-    </div>
 
     
 
@@ -423,6 +413,74 @@
 <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
 <script src="./assets/js/script.js"></script>
+
+<script>
+  // Get references to the audio player, canvas, and play/pause button
+const audioPlayer = document.getElementById('music-player');
+const visualizer = document.getElementById('music-visualizer');
+const playPauseButton = document.getElementById('play-pause-button');
+const ctx = visualizer.getContext('2d');
+
+// Create an AudioContext
+const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+
+// Connect the audio player to the AudioContext
+const source = audioContext.createMediaElementSource(audioPlayer);
+source.connect(audioContext.destination);
+
+// Create an analyser node
+const analyser = audioContext.createAnalyser();
+source.connect(analyser);
+
+// Set analyser options
+analyser.fftSize = 256;
+const bufferLength = analyser.frequencyBinCount;
+const dataArray = new Uint8Array(bufferLength);
+
+// Function to draw the visualizer
+function drawVisualizer() {
+    analyser.getByteFrequencyData(dataArray);
+
+    // Clear the canvas
+    ctx.clearRect(0, 0, visualizer.width, visualizer.height);
+
+    const barWidth = (visualizer.width / bufferLength) * 2.5;
+    let x = 0;
+
+    for (let i = 0; i < bufferLength; i++) {
+        const barHeight = dataArray[i] / 2;
+
+        ctx.fillStyle = `rgb(${barHeight + 100},50,50)`;
+        ctx.fillRect(x, visualizer.height - barHeight / 2, barWidth, barHeight);
+
+        x += barWidth + 1;
+    }
+
+    requestAnimationFrame(drawVisualizer);
+}
+
+// Toggle play/pause when the play/pause button is clicked
+playPauseButton.addEventListener('click', () => {
+    if (audioPlayer.paused) {
+        audioPlayer.play();
+        drawVisualizer();
+        playPauseButton.innerHTML = '&#9646;&#9646;'; // Pause icon
+    } else {
+        audioPlayer.pause();
+        cancelAnimationFrame(drawVisualizer);
+        playPauseButton.innerHTML = '&#9658;'; // Play icon
+    }
+});
+
+// Stop drawing the visualizer when the audio ends
+audioPlayer.addEventListener('ended', () => {
+    cancelAnimationFrame(drawVisualizer);
+    playPauseButton.innerHTML = '&#9658;'; // Reset play icon
+});
+
+
+</script>
+
 
 </body>
 </html>
